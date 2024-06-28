@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Main
@@ -6,6 +7,12 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int H=0,T=0;
+        String name;
+        System.out.println("Who are you?");
+        System.out.print(">");
+        Scanner sc = new Scanner(System.in);
+        name = sc.next();
+        System.out.println("Hello, "+name+"!");
         System.out.println("Tossing a coin...");
         for(int i=0;i<3;i++){
             Random random = new Random();
