@@ -24,6 +24,11 @@ public class Main {
             }
         }
         System.out.println("Heads: "+H+", Tails: "+T);
+        if(H>T){
+            System.out.println("You win");
+        }else{
+            System.out.println("You lost");
+        }
     }
     
 }
